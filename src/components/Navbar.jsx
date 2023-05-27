@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
-import { Close } from '@mui/icons-material';
-
+ 
 export default function Navbar() {
 
   const [nav, setNav] = useState(false); 
@@ -31,7 +30,6 @@ export default function Navbar() {
             
             <div className='md:hidden' onClick={handleClick}>
               {!nav? <MenuIcon className='w-5'/> : <CloseIcon className='w-5'/>  }
-              
             </div>
 
         </div>
