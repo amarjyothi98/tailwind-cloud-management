@@ -23,13 +23,13 @@ export default function Hero() {
           <img src={imgOne} alt="/" className='w-full '/>
         </div>
 
-        <div className='absolte flex flex-col py-8 md:min-w-[760px] bottom-[-5%] mx-1 md:left-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl'>
-          <p>Data Services</p>
-          <div>
-            <p>Icon. App security</p>
-            <p>Icon. Dashboard</p>
-            <p>Icon. Cloud Data</p>
-            <p>Icon. Api</p>
+        <div className='absolte flex flex-col justify-evenly py-8 md:min-w-[760px] bottom-[5%] mx-1 md:left-1/2 bg-zinc-200 border border-slate-300 rounded-xl text-center shadow-xl'>
+          <p className='font-bold'>Data Services</p>
+          <div className='flex justify-between flex-wrap px-4'>
+            <p className='flex px-4 py-2 text-slate-500'><CloudUploadIcon className='h-6 text-indigo-600'/> Cloud Data</p>
+            <p className='flex px-4 py-2 text-slate-500'><StorageIcon className='h-6 text-indigo-600'/> Dashboard</p>
+            <p className='flex px-4 py-2 text-slate-500'><DnsIcon className='h-6 text-indigo-600'/> Anything</p>
+            <p className='flex px-4 py-2 text-slate-500'><SendIcon className='h-6 text-indigo-600'/> Api</p>
           </div>
         </div>
 
